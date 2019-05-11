@@ -32,16 +32,21 @@ public class LinkedListArrayListComparison {
     public static void main(String[] args) {
 
         // LinkedList study
+        long beforeLL = System.nanoTime();
         LinkedList<String> linkedElements = new LinkedList<>();
         linkedElements.add("one");
         linkedElements.add("two");
         linkedElements.add("three");
 
         linkedElements.add(1, "eleven");
-
+        
+        long afterLL = System.nanoTime();
+        System.out.println("LinkedList performance:" + (afterLL - beforeLL));
+        
         System.out.println("LinkedList result: " + linkedElements.toString());
 
         // ArrayList study
+        long beforeAL = System.nanoTime();
         List<String> arrayElements = new ArrayList<>();
 
         arrayElements.add("one");
@@ -50,7 +55,9 @@ public class LinkedListArrayListComparison {
         arrayElements.add("four");
 
         arrayElements.add(2, "eleven");
-
+        long afterAL = System.nanoTime();
+        System.out.println("ArrayList performance: " + (afterAL - beforeAL));
+        
         System.out.println("ArrayList result: " + arrayElements.toString());
     }
 }
