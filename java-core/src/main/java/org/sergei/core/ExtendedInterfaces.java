@@ -11,7 +11,7 @@ interface IHello {
     }
 }
 
-public class InterfacesPrivateMethods implements IHello {
+public class ExtendedInterfaces implements IHello {
 
     @Override
     public void printHello(String text) {

@@ -12,9 +12,10 @@
 	<description>Project for Java exploration</description>
 	
 	<modules>
-		<module>java-core</module>
-		<module>collections</module>
 		<module>exceptions</module>
+		<module>collections</module>
+		<module>java-core</module>
+		<module>plain-jdbc</module>
 	</modules>
 	
 	
