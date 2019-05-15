@@ -33,7 +33,7 @@ public class HashMapHashSetComparison {
         hashSet.add("two");
         hashSet.add("three");
         long afterHS = System.nanoTime();
-        System.out.println("HashSet performance: " + (afterHS = beforeHS));
+        System.out.println("HashSet performance: " + (afterHS - beforeHS));
         hashSet.forEach(System.out::println);
     }
 }
