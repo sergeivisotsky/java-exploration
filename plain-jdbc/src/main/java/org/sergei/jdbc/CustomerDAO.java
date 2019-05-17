@@ -48,6 +48,11 @@ public class CustomerDAO implements ICustomerDAO {
             log.error("Error executing SQL: ", e);
         } finally {
             try {
+                
+                IOUtils.closeQietly(rs);
+                IOUtils.closeQietly(pstmt);
+                IOUtils.closeQietly(rs);
+                
                 if (conn != null) {
                     rs.close();
                     pstmt.close();
