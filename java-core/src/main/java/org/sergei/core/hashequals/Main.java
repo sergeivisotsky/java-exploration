@@ -1,5 +1,8 @@
 package org.sergei.core.hashequals;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +16,17 @@ public class Main {
                                     .withExperience(15)
                                     .withSalary(1200.0)
                                 .build();
+        
+        Map<Integer, Employee> employees = new HashMap<>();
+        employees.put(1, employeeOne);
+        employees.put(2, employeeTwo);
+        
+        if (employees.get(1).hashCode() == employees.get(2).hashCode()) {
+            System.out.println("Equals");
+        }
+        
+        System.out.println("Employee one hashCode is: " + employeeOne.hashCode());
+        
         if (employeeOne.equals(employeeTwo)) {
             System.out.println("equals");
         } else {
