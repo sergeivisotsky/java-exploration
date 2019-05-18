@@ -1,4 +1,4 @@
-package org.sergei.core.strams;
+package org.sergei.core.streams;
 
 import java.util.Arrays;
 
