@@ -1,22 +1,22 @@
-package org.sergei.core.comparator;
+package org.sergei.core.comparable;
 
-public class Employee {
-    
+import java.lang.Comparable;
+
+public class Human implements Comparable<Human> {
+
     private Long id;
     private String firstName;
     private String lastName;
     private Integer age;
-    private Double salary;
     
-    public Employee() {
+    public Human() {
     }
 
-    public Employee(Long id, String firstName, String lastName, Integer age, Double salary) {
+    public Human(Long id, String firstName, String lastName, Integer age) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.salary = salary;
     }
 
     public Long getId() {
@@ -51,12 +51,20 @@ public class Employee {
         this.age = age;
     }
 
-    public Double getSalary() {
-        return salary;
+    @Override
+    public String toString() {
+        return "Human [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + "]";
     }
 
-    public void setSalary(Double salary) {
-        this.salary = salary;
-    }
+    @Override
+    public int compareTo(Human obj) {
 
+        if (this.getAge() > obj.getAge()) {
+           return 1;
+        } else {
+            return -1;
+        }
+        
+    }
+    
 }

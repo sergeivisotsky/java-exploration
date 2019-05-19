@@ -1,22 +1,19 @@
-package org.sergei.core.comparator;
+package org.sergei.core.instanceofexp;
 
-public class Employee {
-    
+public class Employee extends Human {
+
     private Long id;
     private String firstName;
     private String lastName;
     private Integer age;
     private Double salary;
+    private Integer performance;
     
     public Employee() {
     }
 
-    public Employee(Long id, String firstName, String lastName, Integer age, Double salary) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-        this.salary = salary;
+    public Employee(Long id, String firstName, String lastName, Integer age) {
+        super(id, firstName, lastName, age);
     }
 
     public Long getId() {
@@ -59,4 +56,12 @@ public class Employee {
         this.salary = salary;
     }
 
+    public Integer getPerformance() {
+        return performance;
+    }
+
+    public void setPerformance(Integer performance) {
+        this.performance = performance;
+    }
+    
 }
