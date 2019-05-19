@@ -48,17 +48,20 @@ public class CustomerDAO implements ICustomerDAO {
             log.error("Error executing SQL: ", e);
         } finally {
             try {
-                
-                IOUtils.closeQietly(rs);
-                IOUtils.closeQietly(pstmt);
-                IOUtils.closeQietly(rs);
-                
-                if (conn != null) {
+                if (rs != null) {
                     rs.close();
-                    pstmt.close();
-                    conn.close();
+                    if (pstmt != null) {
+                        pstmt.close();
+                        if (conn != null) {
+                            conn.close();
+                        } else {
+                            throw new SQLException("Connection has lost in " + this.getClass());
+                        }
+                    } else {
+                        throw new SQLException("Prepared statement is nullable " + this.getClass());
+                    }
                 } else {
-                    throw new SQLException("Connection has lost in " + this.getClass());
+                    throw new SQLException("Result set is nullable " + this.getClass());
                 }
             } catch (SQLException e) {
                 log.error("Some problems in: {}", this.getClass(), e);
