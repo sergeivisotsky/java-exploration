@@ -2,15 +2,15 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<groupId>org.sergei</groupId>
 	<artifactId>java-exploration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
 	<name>Java exploration</name>
 	<description>Project for Java exploration</description>
-	
+
 	<modules>
 		<module>exceptions</module>
 		<module>collections</module>
@@ -18,8 +18,7 @@
 		<module>plain-jdbc</module>
 		<module>io-nio</module>
 	</modules>
-	
-	
+
 	<build>
         <plugins>
             <plugin>
@@ -32,5 +31,5 @@
             </plugin>
         </plugins>
     </build>
-	
+
 </project>
