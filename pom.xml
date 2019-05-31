@@ -17,7 +17,8 @@
 		<module>java-core</module>
 		<module>plain-jdbc</module>
 		<module>io-nio</module>
-	</modules>
+        <module>soap-ws</module>
+    </modules>
 
 	<build>
         <plugins>
