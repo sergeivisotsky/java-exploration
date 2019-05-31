@@ -20,4 +20,4 @@
 
 # Compilation binary files
 */out/*
-*/target/*
+/target/
