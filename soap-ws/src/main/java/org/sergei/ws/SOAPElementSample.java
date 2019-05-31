@@ -1,10 +1,11 @@
 package org.sergei.ws;
 
 import javax.xml.soap.*;
+import java.io.ByteArrayOutputStream;
 
 public class SOAPElementSample {
 
-    public static void main(String[] args) throws SOAPException {
+    public static void main(String[] args) throws Exception {
         MessageFactory messageFactory = MessageFactory.newInstance();
         SOAPMessage soapMessage = messageFactory.createMessage();
 
@@ -23,7 +24,11 @@ public class SOAPElementSample {
         SOAPElement order = purchaseLineItems.addChildElement(childName);
         order.addTextNode("1016577");
 
-        System.out.println(soapMessage.toString());
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        soapMessage.writeTo(outputStream);
+
+
+        System.out.println(soapMessage);
     }
 
 }
