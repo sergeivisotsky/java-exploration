@@ -1,3 +1,3 @@
-//module java.core {
+module java.core {
 //    requires exceptions;
-//}
+}
