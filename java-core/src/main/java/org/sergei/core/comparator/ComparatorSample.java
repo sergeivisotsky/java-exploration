@@ -9,14 +9,14 @@ public class ComparatorSample {
 
     public static void main(String[] args) {
         
-        List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee(1L, "John", "Smith", 21, 2.500));
-        employees.add(new Employee(3L, "Jessica", "Cane", 29, 3.000));
-        employees.add(new Employee(2L, "Jane", "Kromfold", 25, 2.900));
+        List<EmployeeComparator> employeeComparators = new ArrayList<>();
+        employeeComparators.add(new EmployeeComparator(1L, "John", "Smith", 21, 2.500));
+        employeeComparators.add(new EmployeeComparator(3L, "Jessica", "Cane", 29, 3.000));
+        employeeComparators.add(new EmployeeComparator(2L, "Jane", "Kromfold", 25, 2.900));
         
-//        Comparator<Employee> comparator = new Comparator<>() {
+//        Comparator<EmployeeComparator> comparator = new Comparator<>() {
 //            @Override
-//            public int compare(Employee o1, Employee o2) {
+//            public int compare(EmployeeComparator o1, EmployeeComparator o2) {
 //                if(o1.getAge() > o2.getAge()) {
 //                    return 1;
 //                } else {
@@ -26,7 +26,7 @@ public class ComparatorSample {
 //            
 //        };
         
-        Comparator<Employee> comparator = (Employee o1, Employee o2) -> {
+        Comparator<EmployeeComparator> comparator = (EmployeeComparator o1, EmployeeComparator o2) -> {
             if(o1.getAge() > o2.getAge()) {
                 return 1;
             } else {
@@ -34,9 +34,9 @@ public class ComparatorSample {
             }
         };
         
-        Collections.sort(employees, comparator);
+        Collections.sort(employeeComparators, comparator);
         
-        employees.forEach(System.out::println);
+        employeeComparators.forEach(System.out::println);
         
     }
     

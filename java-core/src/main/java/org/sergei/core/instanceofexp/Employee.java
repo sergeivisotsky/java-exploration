@@ -1,6 +1,6 @@
 package org.sergei.core.instanceofexp;
 
-public class Employee extends Human {
+public class Employee extends HumanInstanceOf {
 
     private Long id;
     private String firstName;

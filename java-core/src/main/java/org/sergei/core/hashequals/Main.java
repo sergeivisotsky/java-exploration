@@ -25,7 +25,7 @@ public class Main {
             System.out.println("Equals");
         }
         
-        System.out.println("Employee one hashCode is: " + employeeOne.hashCode());
+        System.out.println("EmployeeComparator one hashCode is: " + employeeOne.hashCode());
         
         if (employeeOne.equals(employeeTwo)) {
             System.out.println("equals");

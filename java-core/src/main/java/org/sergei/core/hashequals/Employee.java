@@ -1,6 +1,6 @@
 package org.sergei.core.hashequals;
 
-public class Employee extends Human {
+public class Employee extends HumanHashEquals {
 
     private Double salary;
     private Integer experience;

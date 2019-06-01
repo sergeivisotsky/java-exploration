@@ -8,15 +8,15 @@ public class ComparableSample {
 
     public static void main(String[] args) {
         
-        List<Human> humans = new ArrayList<>();
-        humans.add(new Human(1L, "John", "Smith", 21));
-        humans.add(new Human(2L, "Jessica", "Cane", 29));
-        humans.add(new Human(3L, "Jane", "Kromfold", 25));
+        List<HumanComparable> humanComparables = new ArrayList<>();
+        humanComparables.add(new HumanComparable(1L, "John", "Smith", 21));
+        humanComparables.add(new HumanComparable(2L, "Jessica", "Cane", 29));
+        humanComparables.add(new HumanComparable(3L, "Jane", "Kromfold", 25));
         
         
-        Collections.sort(humans);
+        Collections.sort(humanComparables);
         
-        humans.forEach(System.out::println);
+        humanComparables.forEach(System.out::println);
         
     }
     

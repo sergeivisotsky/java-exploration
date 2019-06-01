@@ -19,9 +19,9 @@ public class RunnableSample implements Runnable{
                 Thread.sleep(100);
             }
         } catch (InterruptedException e) {
-            System.out.println("Thread " + threadName + "interrupted.");
+            System.out.println("Thread " + threadName + " interrupted.");
         }
-        System.out.println("Thread " + threadName + "exiting.");
+        System.out.println("Thread " + threadName + " exiting.");
     }
 
     public void start() {
