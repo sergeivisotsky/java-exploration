@@ -13,4 +13,13 @@
 	<artifactId>java-core</artifactId>
 	<name>Java core</name>
 	<description>Java Core experiments</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.9</version>
+		</dependency>
+	</dependencies>
+
 </project>
