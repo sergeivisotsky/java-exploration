@@ -3,7 +3,6 @@ package org.sergei.collections.exercises;
 import java.util.LinkedList;
 import java.util.Random;
 
-@SuppressWarnings("all")
 public class LinkedListTasks {
     private static Random rd = new Random();
 
