@@ -2,8 +2,6 @@ package org.sergei.core.reflection;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 
-import java.util.Arrays;
-
 
 public class MethodMetaData {
 
@@ -45,15 +43,20 @@ public class MethodMetaData {
         return modifiers;
     }
 
+//    @Override
+//    public String toString() {
+//        return "MethodMetaData{" +
+//                "name='" + name + '\'' +
+//                ", returnType=" + returnType +
+//                ", paramTypes=" + Arrays.toString(paramTypes) +
+//                ", exceptionTypes=" + Arrays.toString(exceptionTypes) +
+//                ", modifiers=" + modifiers +
+//                '}';
+//    }
+
     @Override
     public String toString() {
-        return "MethodMetaData{" +
-                "name='" + name + '\'' +
-                ", returnType=" + returnType +
-                ", paramTypes=" + Arrays.toString(paramTypes) +
-                ", exceptionTypes=" + Arrays.toString(exceptionTypes) +
-                ", modifiers=" + modifiers +
-                '}';
+        return ReflectionToStringBuilder.toString(this);
     }
 
     public static final class Builder {
