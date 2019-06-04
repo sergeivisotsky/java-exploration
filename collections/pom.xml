@@ -16,5 +16,12 @@
 	<name>Collections</name>
 	<description>Java collections</description>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>27.1-jre</version>
+		</dependency>
+	</dependencies>
 
 </project>
