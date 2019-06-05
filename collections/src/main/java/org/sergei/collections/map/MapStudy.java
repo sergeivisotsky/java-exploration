@@ -10,11 +10,11 @@ class CommonObject {
         this.cmmonField = cmmonField;
     }
 
-    public String getCmmonField() {
+    public String getCommonField() {
         return cmmonField;
     }
 
-    public void setCmmonField(String cmmonField) {
+    public void setCommonField(String cmmonField) {
         this.cmmonField = cmmonField;
     }
 }

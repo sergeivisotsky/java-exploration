@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Queue {
 
@@ -14,7 +15,7 @@ public class Queue {
         int answer;
         String yesNoAnswer;
         String element;
-        ArrayList<String> queue = new ArrayList<>();
+        List<String> queue = new ArrayList<>();
         do {
             System.out.println("1: enQueue");
             System.out.println("2: Show queue");
