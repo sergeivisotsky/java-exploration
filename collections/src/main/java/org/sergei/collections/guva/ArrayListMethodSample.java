@@ -5,7 +5,7 @@ import com.google.common.collect.Lists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LinkedListMethodSample {
+public class ArrayListMethodSample {
 
     public static void main(String[] args) {
 
