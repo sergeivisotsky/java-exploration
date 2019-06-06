@@ -10,6 +10,7 @@
 	</parent>
 	
 	<artifactId>plain-jdbc</artifactId>
+	<packaging>jar</packaging>
 	<name>Plain JDBC</name>
 	<description>Plain JDBC exploration</description>
 	

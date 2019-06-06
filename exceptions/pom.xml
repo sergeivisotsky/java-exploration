@@ -12,7 +12,7 @@
 	</parent>
 
 	<artifactId>exceptions</artifactId>
-
+	<packaging>jar</packaging>
 	<name>Exceptions</name>
 	<description>Java exceptions</description>
 
