@@ -13,4 +13,11 @@
     <name>IO NIO</name>
     <description>I/O fundamentals and NIO2</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
