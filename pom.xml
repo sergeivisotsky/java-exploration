@@ -18,7 +18,8 @@
 		<module>plain-jdbc</module>
 		<module>io-nio</module>
         <module>soap-ws</module>
-    </modules>
+		<module>modularity</module>
+	</modules>
 
 	<dependencyManagement>
 		<dependencies>
