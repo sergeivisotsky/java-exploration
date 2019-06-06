@@ -4,18 +4,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 class CommonObject {
-    private String cmmonField;
+    private String commonField;
 
-    public CommonObject(String cmmonField) {
-        this.cmmonField = cmmonField;
+    public CommonObject(String commonField) {
+        this.commonField = commonField;
     }
 
     public String getCommonField() {
-        return cmmonField;
+        return commonField;
     }
 
     public void setCommonField(String cmmonField) {
-        this.cmmonField = cmmonField;
+        this.commonField = cmmonField;
     }
 }
 
