@@ -1,5 +1,8 @@
 package org.sergei.core.enums;
 
+/**
+ * @author Sergei Visotsky
+ */
 enum Cars {
     LAMBORGHINI, PORSCHE, AUDI, BMW
 }

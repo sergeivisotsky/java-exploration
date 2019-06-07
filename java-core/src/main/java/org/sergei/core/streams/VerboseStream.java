@@ -3,6 +3,9 @@ package org.sergei.core.streams;
 import java.util.List;
 import java.util.stream.Stream;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class VerboseStream {
 
     public static void main(String[] args) {

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class ArrayListIteration {
 
     public static void main(String[] args) {

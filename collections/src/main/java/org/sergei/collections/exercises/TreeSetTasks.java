@@ -7,6 +7,9 @@ import java.util.Iterator;
 import java.util.Random;
 import java.util.TreeSet;
 
+/**
+ * @author Sergei Visotsky
+ */
 @SuppressWarnings("all")
 public class TreeSetTasks {
     private static BufferedReader br =

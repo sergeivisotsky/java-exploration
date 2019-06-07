@@ -5,6 +5,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class FileOperations {
 
     public static void main(String[] args) throws IOException {

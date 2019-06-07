@@ -3,6 +3,9 @@ package org.sergei.collections.map;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Sergei Visotsky
+ */
 class CommonObject {
     private String commonField;
 

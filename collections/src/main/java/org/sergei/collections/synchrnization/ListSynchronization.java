@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class ListSynchronization {
 
     private static List<Integer> elements = Collections.synchronizedList(new ArrayList<>());

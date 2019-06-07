@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class RandomListing {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("John", "Marina", "Denis", "Douglas", "Vincent");

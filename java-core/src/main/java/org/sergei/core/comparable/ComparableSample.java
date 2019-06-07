@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class ComparableSample {
 
     public static void main(String[] args) {

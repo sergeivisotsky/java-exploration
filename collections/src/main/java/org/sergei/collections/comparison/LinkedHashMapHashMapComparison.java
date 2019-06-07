@@ -7,6 +7,8 @@ import java.util.Random;
 
 /**
  * HashMap works quicker than HashMap
+ *
+ * @author Sergei Visotsky
  */
 public class LinkedHashMapHashMapComparison {
 
@@ -20,7 +22,7 @@ public class LinkedHashMapHashMapComparison {
 //        elemMap.forEach((k, v) -> System.out.println("Key: " + k + " Value: " + v));
         long afterMap = System.nanoTime();
         System.out.println("Performance: " + (afterMap - beforeMap)); // This guy works quicker
-        
+
         System.out.println();
 
         System.out.println("LinkedHashMap:");
@@ -33,5 +35,5 @@ public class LinkedHashMapHashMapComparison {
         long afterLHM = System.nanoTime();
         System.out.println("Performance: " + (afterLHM - beforeLHM));
     }
-    
+
 }

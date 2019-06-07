@@ -2,6 +2,9 @@ package org.sergei.collections;
 
 import java.util.Hashtable;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class HashtableSample {
 
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
 package org.sergei.core.instanceofexp;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Experiment {
     
     public static void main(String[] args) {

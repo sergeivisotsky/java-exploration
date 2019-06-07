@@ -4,6 +4,8 @@ import java.util.regex.Pattern;
 
 /**
  * Parsing URI filters using regular expressions
+ *
+ * @author Sergei Visotsky
  */
 public class RegExpSample {
 

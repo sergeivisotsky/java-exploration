@@ -3,6 +3,9 @@ package org.sergei.collections.arraylist;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class ArrayListTestTwo {
 
     abstract static class Pet {

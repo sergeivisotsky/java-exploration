@@ -5,6 +5,9 @@ import org.sergei.second.sub.IAdditional;
 import org.sergei.third.sub.Advanced;
 import org.sergei.third.sub.IAdvanced;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class FirstMain {
 
     public static void main(String[] args) {

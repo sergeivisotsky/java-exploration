@@ -3,6 +3,9 @@ package org.sergei.core.streams;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class FilterStreamOfList {
 
     public static void main(String[] args) {

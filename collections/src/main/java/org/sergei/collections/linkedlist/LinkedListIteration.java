@@ -4,6 +4,9 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class LinkedListIteration {
     public static void main(String[] args) {
         List<Integer> numbers = new LinkedList<>();

@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Queue {
 
     public static void main(String[] args) throws IOException {

@@ -1,5 +1,8 @@
 package org.sergei.core.interfaces;
 
+/**
+ * @author Sergei Visotsky
+ */
 interface IHello {
     
     default void printHello(String text) {

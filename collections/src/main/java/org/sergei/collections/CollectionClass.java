@@ -3,6 +3,9 @@ package org.sergei.collections;
 import java.util.ArrayList;
 import java.util.Collection;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class CollectionClass {
 
     public static void main(String[] args) {

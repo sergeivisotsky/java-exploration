@@ -1,5 +1,8 @@
 package org.sergei.core.hashequals;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Employee extends HumanHashEquals {
 
     private Double salary;

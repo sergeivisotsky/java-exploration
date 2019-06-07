@@ -1,5 +1,8 @@
 package org.sergei.exceptions;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class ArithmeticException extends RuntimeException {
 
     private static final long serialVersionUID = 1L;

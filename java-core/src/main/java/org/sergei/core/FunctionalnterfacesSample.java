@@ -1,5 +1,8 @@
 package org.sergei.core;
 
+/**
+ * @author Sergei Visotsky
+ */
 @FunctionalInterface
 interface Square {
     

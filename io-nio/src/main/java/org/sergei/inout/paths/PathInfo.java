@@ -3,6 +3,9 @@ package org.sergei.inout.paths;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class PathInfo {
 
     public static void main(String[] args) {

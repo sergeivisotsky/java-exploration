@@ -2,6 +2,9 @@ package org.sergei.core.annotations;
 
 import java.lang.reflect.Method;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class AnnotationsSample {
 
     @Start("Hello")

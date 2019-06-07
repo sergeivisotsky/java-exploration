@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class ArrayListTasks {
     static class FirstTask {
         public static void main(String[] args) {

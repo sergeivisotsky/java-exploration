@@ -5,6 +5,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class HashMapTreeMap {
 
     public static void main(String[] args) {

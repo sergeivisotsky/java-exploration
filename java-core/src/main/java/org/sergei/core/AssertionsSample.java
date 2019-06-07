@@ -1,5 +1,8 @@
 package org.sergei.core;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class AssertionsSample {
 
     public static void main(String[] args) {

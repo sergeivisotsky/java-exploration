@@ -5,6 +5,9 @@ import com.google.common.collect.Lists;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class ArrayListMethodSample {
 
     public static void main(String[] args) {

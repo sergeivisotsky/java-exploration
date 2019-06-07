@@ -4,6 +4,9 @@ import javax.xml.soap.*;
 import java.io.ByteArrayOutputStream;
 import java.util.Arrays;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class SOAPElementSample {
 
     public static void main(String[] args) throws Exception {
@@ -16,10 +19,10 @@ public class SOAPElementSample {
         SOAPHeader soapHeader = soapEnvelope.getHeader();
         soapHeader = soapMessage.getSOAPHeader();
 
-        SOAPBody soapBody  = soapMessage.getSOAPBody();
+        SOAPBody soapBody = soapMessage.getSOAPBody();
 
         SOAPFactory soapFactory = SOAPFactory.newInstance();
-        Name bodyName  = soapFactory.createName("getEmployeeDetails","ns1","urn:MySoapServices");
+        Name bodyName = soapFactory.createName("getEmployeeDetails", "ns1", "urn:MySoapServices");
 
         SOAPBodyElement purchaseLineItems = soapBody.addBodyElement(bodyName);
         Name childName = soapFactory.createName("param1");

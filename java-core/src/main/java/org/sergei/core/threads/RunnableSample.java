@@ -1,5 +1,8 @@
 package org.sergei.core.threads;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class RunnableSample implements Runnable{
 
     private Thread thread;

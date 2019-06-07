@@ -3,6 +3,9 @@ package org.sergei.core.localization;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class ResourceBundlesSample {
 
     private static final String BUNDLE_NAME = "greeting";

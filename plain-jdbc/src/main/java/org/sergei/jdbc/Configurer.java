@@ -8,6 +8,9 @@ import org.sergei.jdbc.dao.CustomerDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Configurer {
 
     private static final Logger log = LoggerFactory.getLogger(CustomerDAO.class);

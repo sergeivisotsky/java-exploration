@@ -2,6 +2,9 @@ package org.sergei.core.reflection;
 
 import java.lang.reflect.Method;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class MainClass {
 
     public static void main(String[] args) throws Exception {

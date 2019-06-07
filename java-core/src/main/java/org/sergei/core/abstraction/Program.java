@@ -1,5 +1,8 @@
 package org.sergei.core.abstraction;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Program extends Actions {
 
     public Program(String hello) {

@@ -2,6 +2,9 @@ package org.sergei.inout.serialization;
 
 import java.io.Serializable;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Animal implements Serializable {
 
     private static final long serialVersionUID = -518075963961965185L;

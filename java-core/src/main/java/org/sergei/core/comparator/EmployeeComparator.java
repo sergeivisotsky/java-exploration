@@ -1,5 +1,8 @@
 package org.sergei.core.comparator;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class EmployeeComparator {
     
     private Long id;

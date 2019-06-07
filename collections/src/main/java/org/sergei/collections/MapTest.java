@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class MapTest {
     static class Fields {
         String key;

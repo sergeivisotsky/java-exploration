@@ -2,6 +2,9 @@ package org.sergei.collections.graph;
 
 import java.util.Objects;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Vertex {
     private final int id;
     private final String name;

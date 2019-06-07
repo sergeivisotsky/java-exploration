@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class HashtableHashMapComparison {
 
     public static void main(String[] args) {

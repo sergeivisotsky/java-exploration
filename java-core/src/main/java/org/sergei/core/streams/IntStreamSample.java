@@ -2,6 +2,9 @@ package org.sergei.core.streams;
 
 import java.util.stream.IntStream;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class IntStreamSample {
 
     public static void main(String[] args) {

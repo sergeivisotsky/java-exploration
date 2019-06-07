@@ -1,5 +1,8 @@
 package org.sergei.core;
 
+/**
+ * @author Sergei Visotsky
+ */
 enum Fruits {
     apple(5), orange(10), pineapple(23), grape(90);
 

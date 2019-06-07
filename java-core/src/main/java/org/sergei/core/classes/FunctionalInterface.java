@@ -1,5 +1,8 @@
 package org.sergei.core.classes;
 
+/**
+ * @author Sergei Visotsky
+ */
 interface IFunctional {
     void print();
 }

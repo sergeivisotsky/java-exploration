@@ -3,6 +3,9 @@ package org.sergei.core.streams;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class CollectionStreamSample {
 
     public static void main(String[] args) {

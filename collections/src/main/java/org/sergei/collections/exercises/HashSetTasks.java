@@ -9,6 +9,9 @@ import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
 
+/**
+ * @author Sergei Visotsky
+ */
 @SuppressWarnings("all")
 public class HashSetTasks {
     private static Random rd = new Random();

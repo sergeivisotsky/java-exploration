@@ -1,5 +1,8 @@
 package org.sergei.core.interfaces;
 
+/**
+ * @author Sergei Visotsky
+ */
 interface IActions {
     default String hello() {
         return "hello";

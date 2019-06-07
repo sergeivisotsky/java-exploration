@@ -1,5 +1,8 @@
 package org.sergei.core;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Varargs {
     
     public static void varargs(int ...vars) {

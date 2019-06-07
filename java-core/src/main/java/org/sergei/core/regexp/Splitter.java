@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Splitter {
 
     @SuppressWarnings("") // TODO: Understand what kinda warning should be suppressed

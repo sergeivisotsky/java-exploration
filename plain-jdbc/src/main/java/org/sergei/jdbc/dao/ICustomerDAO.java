@@ -2,6 +2,9 @@ package org.sergei.jdbc.dao;
 
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 public interface ICustomerDAO {
 
     List<Customer> findAll();

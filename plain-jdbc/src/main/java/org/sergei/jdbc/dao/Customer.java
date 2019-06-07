@@ -1,5 +1,8 @@
 package org.sergei.jdbc.dao;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Customer {
     
     private final Long id;

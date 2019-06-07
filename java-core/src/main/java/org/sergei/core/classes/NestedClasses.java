@@ -1,5 +1,8 @@
 package org.sergei.core.classes;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class NestedClasses {
 
     class InnerClass {

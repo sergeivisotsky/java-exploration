@@ -1,5 +1,8 @@
 package org.sergei.core;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class IntegerComparison {
     public static void main(String[] args) {
         Integer a = 300;

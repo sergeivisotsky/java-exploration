@@ -2,6 +2,9 @@ package org.sergei.core.localization;
 
 import java.util.Locale;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class LocaleSample {
 
     public static void main(String[] args) {

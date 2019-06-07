@@ -3,6 +3,9 @@ package org.sergei.core.hashequals;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Main {
 
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
 package org.sergei.core.enums;
 
+/**
+ * @author Sergei Visotsky
+ */
 enum Vegetables {
     TOMATO, CUCUMBER, REDIS, PAPRIKA
 }

@@ -2,6 +2,9 @@ package org.sergei.core.comparable;
 
 import java.lang.Comparable;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class HumanComparable implements Comparable<HumanComparable> {
 
     private Long id;

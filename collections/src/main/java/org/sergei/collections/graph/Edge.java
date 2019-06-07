@@ -1,5 +1,8 @@
 package org.sergei.collections.graph;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class Edge {
     private final int id;
     private final Vertex source;

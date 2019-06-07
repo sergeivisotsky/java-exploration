@@ -1,5 +1,8 @@
 package org.sergei.second;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class SecondMain {
 
     public static void main(String[] args) {

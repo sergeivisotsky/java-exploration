@@ -2,6 +2,9 @@ package org.sergei.inout;
 
 import java.io.PrintWriter;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class PrintWriterSample {
 
     public static void main(String[] args) {

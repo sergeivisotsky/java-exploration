@@ -1,5 +1,8 @@
 package org.sergei.core.hashequals;
 
+/**
+ * @author Sergei Visotsky
+ */
 public abstract class HumanHashEquals {
     
     private String Id;

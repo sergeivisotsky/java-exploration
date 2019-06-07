@@ -2,6 +2,9 @@ package org.sergei.collections.exercises;
 
 import java.util.*;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class PriorityQueueTasks {
     private static Random rd = new Random();
 

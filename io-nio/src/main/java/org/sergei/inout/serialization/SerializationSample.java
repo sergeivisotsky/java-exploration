@@ -2,6 +2,9 @@ package org.sergei.inout.serialization;
 
 import java.io.*;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class SerializationSample {
 
     private void writeObjects(Animal... animals) {

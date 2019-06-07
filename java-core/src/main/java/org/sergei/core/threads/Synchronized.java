@@ -3,6 +3,9 @@ package org.sergei.core.threads;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Sergei Visotsky
+ */
 class ListWriter {
 
     private final List<String> elements;

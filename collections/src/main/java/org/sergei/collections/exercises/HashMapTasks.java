@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * @author Sergei Visotsky
+ */
 @SuppressWarnings("all")
 public class HashMapTasks {
     static class FirstTask {

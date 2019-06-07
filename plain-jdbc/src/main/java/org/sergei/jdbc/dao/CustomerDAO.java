@@ -11,6 +11,9 @@ import org.sergei.jdbc.Configurer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class CustomerDAO implements ICustomerDAO {
 
     private static final Logger log = LoggerFactory.getLogger(CustomerDAO.class);

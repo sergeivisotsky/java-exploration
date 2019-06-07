@@ -2,7 +2,9 @@ package org.sergei.core.reflection;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 
-
+/**
+ * @author Sergei Visotsky
+ */
 public class MethodMetaData {
 
     private String name;

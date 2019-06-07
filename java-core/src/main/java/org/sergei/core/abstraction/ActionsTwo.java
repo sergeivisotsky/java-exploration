@@ -1,5 +1,8 @@
 package org.sergei.core.abstraction;
 
+/**
+ * @author Sergei Visotsky
+ */
 public abstract class ActionsTwo implements IActionsTwo {
 
     @Override

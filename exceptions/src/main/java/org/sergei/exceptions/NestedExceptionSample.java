@@ -1,5 +1,8 @@
 package org.sergei.exceptions;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class NestedExceptionSample {
 
     public static void main(String[] args) {

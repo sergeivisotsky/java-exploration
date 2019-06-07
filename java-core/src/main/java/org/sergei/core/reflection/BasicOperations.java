@@ -1,5 +1,8 @@
 package org.sergei.core.reflection;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class BasicOperations {
 
     private String art;

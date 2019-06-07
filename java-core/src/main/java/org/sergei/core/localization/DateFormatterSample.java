@@ -6,6 +6,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
+/**
+ * @author Sergei Visotsky
+ */
 public class DateFormatterSample {
 
     private static final DateFormat format = new SimpleDateFormat("YYYY-mm-dd HH:mm:ss");
