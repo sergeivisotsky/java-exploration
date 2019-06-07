@@ -2,6 +2,9 @@ package org.sergei.jdbc;
 
 import java.util.List;
 
+import org.sergei.jdbc.dao.Customer;
+import org.sergei.jdbc.dao.CustomerDAO;
+import org.sergei.jdbc.dao.ICustomerDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

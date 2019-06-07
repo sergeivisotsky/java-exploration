@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import org.sergei.jdbc.dao.CustomerDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,7 +18,6 @@ public class Configurer {
     private static final String PASSWORD = "admin";
     
     public Connection getConnection() {
-        Connection conn = null;
         try {
             Class.forName(DRIVER);
         } catch (ClassNotFoundException e) {
@@ -25,19 +25,9 @@ public class Configurer {
         }
         try {
             return DriverManager.getConnection(URL, USERNAME, PASSWORD);
-        } catch (Exception e) {
-            log.error("Some problems to retrieve connection: ", e);
-        } finally {
-            try {
-                if (conn != null) {
-                    conn.close();
-                } else {
-                    throw new SQLException("Connection has lost in: " + this.getClass());
-                }
-            } catch (SQLException e) {
-                log.error("Some problems in: {}", this.getClass(), e);
-            }
+        } catch (SQLException e) {
+            log.info("Connection has lost in the following class: {}", this.getClass());
         }
-        return conn;
+        return null;
     }
 }
