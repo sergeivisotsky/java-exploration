@@ -2,9 +2,9 @@ package org.sergei.jdbc;
 
 import java.util.List;
 
-import org.sergei.jdbc.dao.Customer;
-import org.sergei.jdbc.dao.CustomerDAO;
-import org.sergei.jdbc.dao.ICustomerDAO;
+import org.sergei.jdbc.dao.Doctor;
+import org.sergei.jdbc.dao.DoctorDAO;
+import org.sergei.jdbc.dao.IDoctorDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,10 +16,10 @@ public class Main {
     private static final Logger log = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
-        ICustomerDAO customerDAO = new CustomerDAO();
+        IDoctorDAO customerDAO = new DoctorDAO();
         
-        List<Customer> customers = customerDAO.findAll();
-        log.info(customers.toString());
+        List<Doctor> doctors = customerDAO.findAll();
+        log.info(doctors.toString());
     }
     
 }

@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import org.sergei.jdbc.dao.CustomerDAO;
+import org.sergei.jdbc.dao.DoctorDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,10 +13,10 @@ import org.slf4j.LoggerFactory;
  */
 public class Configurer {
 
-    private static final Logger log = LoggerFactory.getLogger(CustomerDAO.class);
+    private static final Logger log = LoggerFactory.getLogger(DoctorDAO.class);
     
     private static final String DRIVER = "org.postgresql.Driver";
-    private static final String URL = "jdbc:postgresql://localhost:5432/sandbox";
+    private static final String URL = "jdbc:postgresql://localhost:5432/hospital";
     private static final String USERNAME = "sergei";
     private static final String PASSWORD = "admin";
     
