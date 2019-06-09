@@ -9,7 +9,7 @@ public class CheckedExceptionSample {
     public static void main(String[] args) throws CheckedException {
         int a = -5;
         lessThanZeroTry(a);
-//        lessThanZero(a);
+        lessThanZero(a);
     }
 
     public static void lessThanZero(int a) throws CheckedException {
