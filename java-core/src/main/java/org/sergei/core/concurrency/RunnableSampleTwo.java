@@ -33,13 +33,13 @@ public class RunnableSampleTwo implements Runnable {
 
     public static void main(String[] args) {
 
-        RunnableSampleTwo thread1 = new RunnableSampleTwo("Hello 1!)))", "Bye 1!)))");
+        var thread1 = new RunnableSampleTwo("Hello 1!)))", "Bye 1!)))");
         thread1.run();
 
-        RunnableSampleTwo thread2 = new RunnableSampleTwo("Hello 2!)))", "Bye 2!)))");
+        var thread2 = new RunnableSampleTwo("Hello 2!)))", "Bye 2!)))");
         thread2.run();
 
-        RunnableSampleTwo thread3 = new RunnableSampleTwo("Hello 3!)))", "Bye 3!)))");
+        var thread3 = new RunnableSampleTwo("Hello 3!)))", "Bye 3!)))");
         thread3.run();
     }
 

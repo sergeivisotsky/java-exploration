@@ -36,10 +36,10 @@ public class RunnableSample implements Runnable{
     }
 
     public static void main(String[] args) {
-        RunnableSample rSampleOne = new RunnableSample("Thread one");
+        var rSampleOne = new RunnableSample("Thread one");
         rSampleOne.start();
 
-        RunnableSample rSampleTwo = new RunnableSample("Thread two");
+        var rSampleTwo = new RunnableSample("Thread two");
         rSampleTwo.start();
     }
 }

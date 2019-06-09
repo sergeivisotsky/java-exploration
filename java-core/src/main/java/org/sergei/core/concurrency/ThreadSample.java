@@ -30,13 +30,13 @@ public class ThreadSample extends Thread {
     }
 
     public static void main(String[] args) {
-        ThreadSample animalOne = new ThreadSample("cat" , "Doggie");
+        var animalOne = new ThreadSample("cat" , "Doggie");
         animalOne.start();
 
-        ThreadSample animalTwo = new ThreadSample("dog", "Jim");
+        var animalTwo = new ThreadSample("dog", "Jim");
         animalTwo.start();
 
-        ThreadSample animalThree = new ThreadSample("tiger", "Tygur");
+        var animalThree = new ThreadSample("tiger", "Tygur");
         animalThree.start();
     }
 }
