@@ -1,4 +1,4 @@
-package org.sergei.exceptions;
+package org.sergei.core.exceptions;
 
 /**
  * @author Sergei Visotsky
