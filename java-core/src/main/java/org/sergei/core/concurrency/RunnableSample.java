@@ -1,4 +1,4 @@
-package org.sergei.core.threads;
+package org.sergei.core.concurrency;
 
 /**
  * @author Sergei Visotsky

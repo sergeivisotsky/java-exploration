@@ -1,4 +1,4 @@
-package org.sergei.core.threads;
+package org.sergei.core.concurrency;
 
 import java.util.ArrayList;
 import java.util.List;
