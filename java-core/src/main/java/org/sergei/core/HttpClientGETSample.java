@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 /**
  * @author Sergei Visotsky
  */
-public class HttpClientSample {
+public class HttpClientGETSample {
 
     public static void main(String[] args) {
 
