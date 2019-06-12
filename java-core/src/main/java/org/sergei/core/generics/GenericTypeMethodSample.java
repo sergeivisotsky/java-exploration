@@ -9,7 +9,7 @@ public class GenericTypeMethodSample {
 
     private static <E> void printList(List<E> ints) {
         for (E elem : ints) {
-            System.out.print(elem + " ");
+            System.out.printf("%s\t", elem);
         }
     }
 
