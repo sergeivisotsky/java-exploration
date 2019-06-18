@@ -1,4 +1,4 @@
-package org.sergei.core.abstraction;
+package org.sergei.core.abstraction.v1;
 
 /**
  * @author Sergei Visotsky
