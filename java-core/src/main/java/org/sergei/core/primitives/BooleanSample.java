@@ -1,4 +1,4 @@
-package org.sergei.core;
+package org.sergei.core.primitives;
 
 /**
  * @author Sergei Visotsky
