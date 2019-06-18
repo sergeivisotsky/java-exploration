@@ -1,0 +1,17 @@
+package org.sergei.core;
+
+/**
+ * @author Sergei Visotsky
+ */
+public class ByteShortSample {
+
+    public static void main(String[] args) {
+
+        byte b = (byte) 'b';
+        b++;
+        short s = b;
+        System.out.println(s - 1);
+
+    }
+
+}
