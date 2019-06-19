@@ -1,4 +1,4 @@
-package org.sergei.core;
+package org.sergei.core.arrays;
 
 /**
  * @author Sergei Visotsky
