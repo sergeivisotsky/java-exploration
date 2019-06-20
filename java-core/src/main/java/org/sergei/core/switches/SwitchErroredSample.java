@@ -1,9 +1,9 @@
-package org.sergei.core;
+package org.sergei.core.switches;
 
 /**
  * @author Sergei Visotsky
  */
-public class SwitchSample {
+public class SwitchErroredSample {
 
 //    String convert(char character) {
 //        String text;
@@ -23,7 +23,7 @@ public class SwitchSample {
 
     public static void main(String[] args) {
 
-//        new SwitchSample().convert('a');
+//        new SwitchErroredSample().convert('a');
 
     }
 
