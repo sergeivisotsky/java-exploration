@@ -1,5 +1,6 @@
 package org.sergei.core;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -23,10 +24,16 @@ class Person {
 
 public class PredicateSample {
 
-    static List<Person> filter(List<Person> input, Predicate<Person> predicate) {
-        return null;
-        // TODO...........
-    }
+//    static List<Person> filter(List<Person> input, Predicate<Person> predicate) {
+//        var output = new ArrayList<>();
+//        for (Person person : input) {
+//            if (predicate.test(person)) {
+//                output.add(person);
+//            }
+//            return output;
+//        }
+//        return output;
+//    }
 
     public static void main(String[] args) {
 
