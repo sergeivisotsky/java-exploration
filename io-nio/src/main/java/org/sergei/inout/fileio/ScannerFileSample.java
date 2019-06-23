@@ -9,7 +9,8 @@ import java.util.Scanner;
 public class ScannerFileSample {
 
     public static void main(String[] args) {
-        var file = new File("io-nio/src/main/resources/files/hello.txt");
+        String filePath = ScannerFileSample.class.getResource("files/hello.txt").getFile();
+        var file = new File(filePath);
         try(Scanner sc = new Scanner(file)) {
             while (sc.hasNext()) {
                 System.out.println(sc.next());
