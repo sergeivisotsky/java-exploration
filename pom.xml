@@ -12,14 +12,9 @@
 	<description>Project for Java exploration</description>
 
 	<modules>
-		<module>collections</module>
-		<module>java-core</module>
-		<module>plain-jdbc</module>
-		<module>io-nio</module>
-        <module>soap-ws</module>
-		<module>modularity</module>
-        <module>java-security</module>
-    </modules>
+		<module>java-ee</module>
+		<module>java-se</module>
+	</modules>
 
 	<dependencyManagement>
 		<dependencies>
