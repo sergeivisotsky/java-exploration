@@ -5,7 +5,7 @@
 
 	<parent>
 		<groupId>org.sergei</groupId>
-		<artifactId>java-exploration</artifactId>
+		<artifactId>java-se</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
