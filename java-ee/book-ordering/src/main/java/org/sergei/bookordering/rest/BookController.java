@@ -1,7 +1,7 @@
-package org.sergei.bookordering.rest.controller;
+package org.sergei.bookordering.rest;
 
-import org.sergei.bookordering.jpa.model.Book;
-import org.sergei.bookordering.jpa.repository.BookRepository;
+import org.sergei.bookordering.jpa.Book;
+import org.sergei.bookordering.jpa.BookRepository;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;

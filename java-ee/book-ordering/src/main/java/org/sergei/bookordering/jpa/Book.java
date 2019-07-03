@@ -1,4 +1,4 @@
-package org.sergei.books.jpa.model;
+package org.sergei.bookordering.jpa;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,7 +20,7 @@ public class Book {
 
     @Id
     @Column(name = "id")
-    @SequenceGenerator(name = "seq", allocationSize = 100)
+    @SequenceGenerator(name = "seq", initialValue = 1, allocationSize = 100)
     private Long id;
 
     @Column(name = "isbn")

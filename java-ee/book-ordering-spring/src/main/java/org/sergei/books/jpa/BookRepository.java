@@ -1,9 +1,7 @@
-package org.sergei.books.jpa.repository;
+package org.sergei.books.jpa;
 
 import lombok.extern.slf4j.Slf4j;
-import org.sergei.books.jpa.JpaUtil;
-import org.sergei.books.jpa.model.Book;
-import org.sergei.books.rest.dto.BookDTO;
+import org.sergei.books.rest.BookDTO;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityManager;

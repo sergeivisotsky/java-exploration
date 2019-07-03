@@ -1,10 +1,9 @@
-package org.sergei.bookordering.jpa.repository;
+package org.sergei.bookordering.jpa;
 
 import lombok.extern.slf4j.Slf4j;
 import org.sergei.bookordering.jpa.JpaUtil;
-import org.sergei.bookordering.jpa.model.Book;
+import org.sergei.bookordering.jpa.Book;
 
-import javax.annotation.ManagedBean;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

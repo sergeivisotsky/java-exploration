@@ -1,10 +1,8 @@
-package org.sergei.bookordering.rest.controller.dto;
+package org.sergei.books.rest;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-
-import javax.persistence.Column;
 
 /**
  * @author Sergei Visotsky

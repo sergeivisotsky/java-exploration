@@ -1,4 +1,4 @@
-package org.sergei.books.rest.dto;
+package org.sergei.bookordering.rest;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

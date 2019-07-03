@@ -1,8 +1,7 @@
 package org.sergei.books.rest;
 
-import org.sergei.books.jpa.model.Book;
-import org.sergei.books.jpa.repository.BookRepository;
-import org.sergei.books.rest.dto.BookDTO;
+import org.sergei.books.jpa.Book;
+import org.sergei.books.jpa.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
