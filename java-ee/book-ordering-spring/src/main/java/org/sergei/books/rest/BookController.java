@@ -27,9 +27,8 @@ public class BookController {
     }
 
     @PostMapping(produces = "application/json", consumes = "application/json")
-    public ResponseEntity<Book> saveBook(@RequestBody BookDTO book) {
-        bookRepository.createBook(book);
-        return new ResponseEntity<>(HttpStatus.OK);
+    public ResponseEntity<BookDTO> saveBook(@RequestBody BookDTO request) {
+        return new ResponseEntity<>(bookRepository.createBook(request), HttpStatus.OK);
     }
 
 }

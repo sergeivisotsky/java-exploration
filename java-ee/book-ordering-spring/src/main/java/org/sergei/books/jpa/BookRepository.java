@@ -16,7 +16,7 @@ public class BookRepository {
 
     private EntityManager em = JpaUtil.getEntityManager();
 
-    public void createBook(BookDTO bookDTO) {
+    public BookDTO createBook(BookDTO bookDTO) {
         em.getTransaction().begin();
 
         Book book = new Book();
@@ -37,6 +37,7 @@ public class BookRepository {
 //        em.persist(book);
 
         em.getTransaction().commit();
+        return bookDTO;
     }
 
 
