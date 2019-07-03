@@ -18,6 +18,7 @@
         <module>soap-ws</module>
         <module>thorntail</module>
         <module>book-ordering</module>
+        <module>book-ordering-spring</module>
     </modules>
 
     <dependencyManagement>

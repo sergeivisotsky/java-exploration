@@ -1,5 +1,6 @@
 package org.sergei.bookordering.jpa;
 
+import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
@@ -8,6 +9,10 @@ import javax.persistence.Persistence;
  */
 public class JpaUtil {
 
-    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("");
+    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("books");
+
+    public static EntityManager getEntityManager() {
+        return emf.createEntityManager();
+    }
 
 }

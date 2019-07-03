@@ -23,6 +23,7 @@
         <module>java-security</module>
         <module>modularity</module>
         <module>plain-jdbc</module>
+        <module>xsd-classes</module>
     </modules>
 
 </project>
