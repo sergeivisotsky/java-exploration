@@ -34,6 +34,7 @@ public class BookRepository {
         query.setParameter(3, book.getTitle());
         query.setParameter(4, book.getAuthor());
         query.setParameter(5, book.getYearOfCreation());
+        query.executeUpdate();
 
 //        em.persist(book);
 
