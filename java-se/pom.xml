@@ -24,6 +24,7 @@
         <module>modularity</module>
         <module>plain-jdbc</module>
         <module>xsd-classes</module>
+        <module>rx-java</module>
     </modules>
 
 </project>
