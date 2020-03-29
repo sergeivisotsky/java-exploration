@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<artifactId>java-exploration</artifactId>
 		<groupId>org.sergei</groupId>
-		<relativePath>../</relativePath>
+		<artifactId>java-se</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<artifactId>collections</artifactId>
@@ -20,7 +20,6 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>27.1-jre</version>
 		</dependency>
 	</dependencies>
 

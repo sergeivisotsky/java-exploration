@@ -8,6 +8,7 @@
         <groupId>org.sergei</groupId>
         <artifactId>java-se</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>xsd-classes</artifactId>
@@ -71,6 +72,8 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <skipXjc>true</skipXjc>
+                    <clearOutputDir>false</clearOutputDir>
                     <xjbSources>
                         <xjbSource>src/main/resources/global.xjb</xjbSource>
                     </xjbSources>
@@ -78,7 +81,6 @@
                         <source>src/main/resources/maven-4.0.0.xsd</source>
                     </sources>
                     <outputDirectory>${basedir}/src/main/java</outputDirectory>
-                    <clearOutputDir>false</clearOutputDir>
                 </configuration>
             </plugin>
         </plugins>
