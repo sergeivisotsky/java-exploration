@@ -37,9 +37,10 @@ public class ReactivePlayground {
     }
 
     /**
-     * Perform a concurrent calculation using a {@link CompletableFuture} an {@link Flowable}
+     * Perform a concurrent string transformation
+     * using a {@link CompletableFuture} an {@link Flowable}
      *
-     * @param request regust of the {@link FirstPojo}
+     * @param request request of the {@link FirstPojo}
      * @return {@link Flowable} of concurrent calculation
      */
     public Flowable<String> performCalculations(FirstPojo request) {
