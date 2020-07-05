@@ -1,19 +1,17 @@
 package org.sergei.books.jpa;
 
-import lombok.extern.slf4j.Slf4j;
-import org.sergei.books.rest.BookDTO;
-import org.springframework.stereotype.Component;
-
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+import org.sergei.books.rest.BookDTO;
+import org.springframework.stereotype.Component;
 
 /**
  * @author Sergei Visotsky
  */
 @Component
-@Slf4j
 public class BookRepository {
 
     private EntityManager em = JpaUtil.getEntityManager();

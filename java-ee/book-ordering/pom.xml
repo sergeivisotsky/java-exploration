@@ -77,12 +77,6 @@
             <artifactId>postgresql</artifactId>
         </dependency>
 
-        <!-- Single-annotation code e.g. @Getter, @Setter, etc. -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-
         <!-- Logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
