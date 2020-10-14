@@ -25,7 +25,7 @@
         <guava.version>27.1-jre</guava.version>
         <logback.version>1.2.3</logback.version>
         <rxjava.version>2.2.19</rxjava.version>
-        <junit.version>4.13</junit.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
 
     <dependencyManagement>
