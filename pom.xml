@@ -19,7 +19,7 @@
     <properties>
         <commons-lang3.version>3.9</commons-lang3.version>
         <hibernate-core.version>5.4.0.Final</hibernate-core.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <jersey.version>1.19.4</jersey.version>
         <jersey-hk2.version>2.28</jersey-hk2.version>
         <guava.version>29.0-jre</guava.version>
